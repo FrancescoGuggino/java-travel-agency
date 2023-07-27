@@ -26,7 +26,7 @@ public class Vacanza {
             throw new RuntimeException("Start time must not be null or in the past!");
         }
 
-        if (endDate == null || endDate.isBefore(startDate))){
+        if (endDate == null || endDate.isBefore(startDate)){
             //eccezione
             throw new RuntimeException("End time must not be null or before start time!");
         }
