@@ -38,7 +38,7 @@ public class Agenzia {
 
         }
 
-        System.out.println("Hai prenotato una vacanza di " + vacanza.getTravelDate() + " giorni a " + vacanza.getDestination() + " dal " + vacanza.getStartDate() + " al " + vacanza.getStartDate());
+        System.out.println("Hai prenotato una vacanza di " + vacanza.getTravelDate() + " giorni a " + vacanza.getDestination() + " dal " + vacanza.getStartDate() + " al " + vacanza.getEndDate());
 
     }
 }
